@@ -7,8 +7,12 @@
     <title>Vite + Lit + TS</title>
     <link rel="stylesheet" href="./src/index.css" />
     <script type="module" src="/src/my-element.ts"></script>
+    <script type="module" src="/src/hello-world.ts"></script>
+    <script type="module" src="/src/admin-actions.ts"></script>
+    <admin-actions token="Replace with the token value from the GraphQL Workbench"></admin-actions>
   </head>
   <body>
+    <hello-world>myprop="set in html" mystate="set in html"</hello-world>
     <my-element>
       <h1>Vite + Lit</h1>
     </my-element>
